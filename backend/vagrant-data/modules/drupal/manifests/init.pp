@@ -16,7 +16,7 @@ class drupal () {
 	#file { 'drupal_config' :
 	#	path    => '/var/www/public/d7/sites/default/settings.php',
 	#	source  => '/vagrant/vagrant-data/modules/drupal/files/settings.php',
-   	#	require => File['drupal_index']
+   	#	require => File['drupal_index'] 
 	#}
 
 	exec { 'drupal_download' :
